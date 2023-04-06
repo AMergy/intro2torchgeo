@@ -27,11 +27,13 @@ A choice was made to not use any GPU, to make sure this code can be run by any u
 
 - The NAIP (National Agriculture Imagery Program) dataset is a high-resolution aerial imagery dataset of the United States, with four spectral bands (R, G, B, IR). It can be used for various applications including land use classification, crop mapping, and object detection. 
 
-- Cheasapeake
+- [Cheasapeake](https://www.chesapeakeconservancy.org/wp-content/uploads/2017/01/LandCover101Guide.pdf)
 
 ## Model
 
 ResNet-50 is a convolutional neural network that is 50 layers deep, used for classification tasks. 
+
+U-Net -> Segmentation
 
 ## Methology
 
