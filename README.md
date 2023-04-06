@@ -33,8 +33,6 @@ A choice was made to not use any GPU, to make sure this code can be run by any u
 
 ResNet-50 is a convolutional neural network that is 50 layers deep, used for classification tasks. 
 
-U-Net -> Segmentation
-
 ## Methology
 
 
