@@ -72,7 +72,7 @@ One of the expected impacts of this project is to make coding and deep learning 
 1. Clone the repository and change directory: `cd intro2torchgeo`
 2. Create a new conda environment: `conda env create -f environment.yml`
 3. Run the notebook `1_data_exploration.ipynb` to understand the datasets' structure and torchgeo's custom classes
-4. Run the notebook `2_classification.ipynb` to train a classification model with transfer learning and get a first version of model weights which can be used as a template
+4. Run the notebook `2_classification_baseilne.ipynb` to train a classification model with transfer learning and get a first version of model weights which can be used as a template
 
 
 # :pencil: Contributing
@@ -91,9 +91,17 @@ All **suggestions/PRs** are welcome!
 
 # Results summary
 
+| Name | Test Accuracy | Method description |
+|--------|--------|--------|
+| AMergy | bad | Transfer learning |
+| ... | ... | ... |
+| ... | ... | ... |
 
+If needed, detail the method you investigated in the section below:
+- **Transfer learning**: modified version of the FarSeg segmentation model with a ResNet50 backbone that is pre-trained on a large dataset. The first layer of the model is modified to accept a 4-band image.
+- **...**: ...
 
 # Contacts
 
-- [Anne Mergy]()
-- [Katie Awty-Carroll]()
+- [Anne Mergy](https://github.com/AMergy)
+- [Katie Awty-Carroll](https://github.com/klh5)
