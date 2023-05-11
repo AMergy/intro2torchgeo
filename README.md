@@ -74,7 +74,7 @@ One of the expected impacts of this project is to make coding and deep learning 
 
 You are now ready for contributing!
 
-Think about how you could improve the performance of this model without having much computing power (for instance by using vegetation indices, by playing with the loss function, the number and type of layers).
+Think about how you could improve the performance of this model without having much computing power (for instance by normalizing the data, by using vegetation indices, by playing with the loss function, the number and type of layers).
 
 Once you have an idea, make sure you follow these steps:
 1. Create a detailed issue and a new branch
