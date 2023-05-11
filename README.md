@@ -2,9 +2,11 @@
 
 This repository is the legacy project of the cohort #3 of the Mentorship Program W+iG (2022-2023).
 
-During our Mentorship journey, we realized the extent of the problem of having limited resource usage when training a model on Geospatial data. This can be a barrier when it comes to exploring the possibilities offered by data science and understanding different approaches. There are several ways to overcome this issue, and we wish to explore them collectively, in order to allow every WiG+ member wishing to familiarize themselves with deep learning to participate and use current tools to explore their ideas. In the scope of this work, we implemented a transfer learning approach that can be used as a baseline for comparison.
+During our Mentorship journey, we realized the extent of the problem of having limited resource usage when training a model on Geospatial data. This can be a barrier when it comes to exploring the possibilities offered by data science and understanding different approaches. There are several ways to overcome this issue, and we wish to explore them collectively, in order to allow every WiG+ member wishing to familiarize themselves with deep learning to participate and use current tools to explore their ideas. Leveraging the Geospatial expertise of our community can significantly improve model performance, and we aim to make coding more accessible to enable everyone to apply their ideas.
 
-The aim of this repository is to create a community project allowing all members from the WiG+ community (and beyond) to explore an approach and improve the accuracy of the baseline model. We hope to allow as many WiG+ as possible to familiarize themselves with the library [torchgeo](https://torchgeo.readthedocs.io/en/stable/) and with good practices when it comes to contributing to a github project.
+In the scope of this work, we implemented a transfer learning approach that can be used as a baseline for comparison.
+
+The aim of this repository is to create a community project allowing all members from the WiG+ community (and beyond) to explore an approach and improve the accuracy of this baseline model. We hope to allow as many WiG+ as possible to familiarize themselves with the library [torchgeo](https://torchgeo.readthedocs.io/en/stable/) and with good practices when it comes to contributing to a github project.
 
 # Study
 
