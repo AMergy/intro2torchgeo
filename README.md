@@ -4,9 +4,7 @@ This repository is the legacy project of the cohort #3 of the Mentorship Program
 
 During our Mentorship journey, we realized the extent of the problem of having limited resource usage when training a model on Geospatial data. This can be a barrier when it comes to exploring the possibilities offered by data science and understanding different approaches. There are several ways to overcome this issue, and we wish to explore them collectively, in order to allow every WiG+ member wishing to familiarize themselves with deep learning to participate and use current tools to explore their ideas. In the scope of this work, we implemented a transfer learning approach that can be used as a baseline for comparison.
 
-The aim of this repository is to create a community project allowing all members from the WiG+ community (and beyond) to explore an approach and improve the accuracy of the baseline model. We hope to allow as many WiG+ as possible to familiarize themselves with the library [torchgeo](https://torchgeo.readthedocs.io/en/stable/) and with the good practices when it comes to contributing to a github project. 
-
-### TODO: protect main branch
+The aim of this repository is to create a community project allowing all members from the WiG+ community (and beyond) to explore an approach and improve the accuracy of the baseline model. We hope to allow as many WiG+ as possible to familiarize themselves with the library [torchgeo](https://torchgeo.readthedocs.io/en/stable/) and with good practices when it comes to contributing to a github project.
 
 # Study
 
@@ -48,7 +46,7 @@ This legacy project has 3 main objectives:
 - give the opportunity to the WiG+ to get started with Geospatial Data Sciences
 - explore and identify the best ways to tackle resource limits when training a Deep Learning algorithm, as a comunity
 
-Potential applications could include very different situations:
+Potential applications could include different situations. For instance:
 1. Accessible Deep Learning: This project enables individuals and organizations without access to a powerful GPU or computing resources to train deep learning algorithms on geospatial data. This can help democratize the field of data science and make it more accessible to a wider range of people and organizations, including those with limited financial resources.
 
 2. Embedded Systems: This project can be used to train deep learning models for use in embedded systems, such as onboard satellites or in edge devices, where computational resources are limited. The use of transfer learning and other techniques to optimize model performance with limited resources can be particularly valuable in these contexts, helping to reduce costs and improve performance.
@@ -66,9 +64,6 @@ One of the expected impacts of this project is to make coding and deep learning 
 
 # :rocket: Getting started
 
-#### Share short video on git and how to switch branches
-*explain here how to get started*
-
 1. Clone the repository and change directory: `cd intro2torchgeo`
 2. Create a new conda environment: `conda env create -f environment.yml`
 3. Run the notebook `1_data_exploration.ipynb` to understand the datasets' structure and torchgeo's custom classes
@@ -84,16 +79,16 @@ Think about how you could improve the performance of this model without having m
 Once you have an idea, make sure you follow these steps:
 1. Create a detailed issue and a new branch
 2. Switch to the new branch locally on your machine, and start a new notebook with your idea. Make sure you document your code and decisions.
-3. Train your model, and evaluate it using the evaluation notebook: `z_evaluation.ipynb`. Make sure you add your idea and the new performance in the table below.
+3. Train your model, and evaluate it using the evaluation section. Make sure you add your idea and the new performance in the table below.
 4. Make the PR - make sure you detail your decisions.
 
 All **suggestions/PRs** are welcome!
 
 # Results summary
 
-| Name | Test Accuracy | Method description |
+| Name | Test Loss | Method description |
 |--------|--------|--------|
-| AMergy | bad | Transfer learning |
+| AMergy | 1595.2490 | Transfer learning |
 | ... | ... | ... |
 | ... | ... | ... |
 
